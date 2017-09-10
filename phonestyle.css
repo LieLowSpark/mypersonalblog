@@ -1,0 +1,249 @@
+#wrapper {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-top: 30px;
+}
+
+h1#heading {
+    font-size: 30px;
+}
+
+#wallpaper  {
+    margin-top: 50px;
+}
+
+.headinghr {
+    border: 1px solid white;
+    color: white;
+}
+
+#headingwrapper {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+p#headingparagraph {
+    width: 80%;
+    margin: 0 auto;
+    font-family: testing2;
+    word-spacing: 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#headericon {
+    visibility: hidden;
+}
+
+.aboutheading {
+    margin-top: 100px;
+}
+#aboutheadingaboutme {
+    font-weight: bolder;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.aboutheading p {
+font-family: testing;
+    font-size: 18px;
+    color: dimgrey;
+}
+
+.abouticons {
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 70px;
+    border: 1px solid rgba(70, 255, 45);
+    transform: scale(2.8);
+    background-color: rgba(70, 255, 45);
+    color: white;
+}
+
+h4{
+        margin-top: 60px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+  
+    .hiremebackground {
+        background-color: rgb(70, 255, 45);
+        padding-bottom: 30px;
+    }
+
+.columns {
+    padding: 30px;
+}
+
+.hiremeheading {
+        margin-top: 150px;
+    font-weight: bolder;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        padding-top: 60px;
+        color: white;
+    }
+    .hiremeparagraph {
+        font-family: testing;
+    font-size: 20px;
+    color: white;;
+        text-align: center;
+        padding-bottom: 40px;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+.aboutmesubsubheading {
+    font-weight: 700;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+.whyhireicons1 {
+    position: relative;
+    right: 25px;
+}
+
+.whyhireicons2 {
+    position: relative;
+    right: 20px;
+}
+
+.whyhireicons3 {
+    position: relative;
+    right: 20px;
+}
+.whyhireicons4 {
+    position: relative;
+    right: 20px;
+}
+.whyhireicons5 {
+    position: relative;
+    right: 20px;
+}
+.whyhireicons6 {
+    position: relative;
+    right: 20px;
+}
+.whyhireicons7 {
+    position: relative;
+    right: 20px;
+}
+.whyhireicons8 {
+    position: relative;
+    right: 20px;
+}
+.aboutmesubsubheading2 {
+    font-weight: 700;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+.aboutmesubsubheading3 {
+    font-weight: 700;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-align: center;
+}
+.aboutmesubsubheading4 {
+    font-weight: 700;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-align: center;
+}
+.aboutmesubsubheading5 {
+    font-weight: 700;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-align: center;
+}
+.aboutmesubsubheading6 {
+    font-weight: 700;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-align: center;
+}
+    .aboutmesubsubheading7 {
+    font-weight: 700;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-align: center;
+}
+.aboutmesubsubheading8 {
+    font-weight: 700;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+.columns p {
+    text-align: center;
+}
+    
+p#contactparagraph {
+        font-size: 20px;
+        width: 80%;
+        margin: 0 auto;
+        color: white;
+        font-family: testing2;
+        text-align: center;
+}
+
+.contactwrapper {
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+.btn-primary {
+    background-color: transparent;
+        border: double 4px white;
+        font-family: testing;
+        font-size: 25px;
+        padding: 10px 30px;
+        opacity: 1s;
+    }
+    .btn-primary:hover {
+        background-color: white;
+        border: 1px double white;
+        font-size: 27px;
+        padding: 15px 35px;
+        color: black;
+        
+        
+    }
+    
+    #sociallinks {
+        font-size: 25px;
+        text-decoration: none;
+    }
+    .socials {
+        margin: 5px;
+        border: 1os solid rgba(35, 35, 35);
+        border-radius: 50%;
+        padding: 15px;
+        background-color:rgb(35, 35, 35);
+        transition: 1.5s;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .socials:hover {
+        background-color: rgb(70, 255, 45);
+        
+    }
+   
+#footcol1 {
+    text-align: center;
+}
