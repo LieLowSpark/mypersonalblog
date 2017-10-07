@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    display: none;
+}
+
+
+
+/* Header 
+----------*/
+
+header {
+    position: absolute;
+    margin-top: 1em;
+    left: 0;
+    right: 0;
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align:center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 1em;
+}
+
+nav a {
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: .5em;
+    color: white;
+    transition: 0.3s;
+}
+
+nav a:hover,
+nava:focus {
+    color: #00ff6c;
+}
+.logo {
+    margin: 0 auto;
+    width: 100%;
+    width: 30%;
+    color: white;
+    margin-top: 0;
+    font-family: 'Playball', cursive;
+    text-align: center;
+}
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+     padding: 10em 0;
+}
+
+/* Home hero
+----------*/
+
+.home-hero {
+    background-image: url(pexels-photo-389818.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   color: white;
+}
+
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+     padding: 11em 0em 2em;
+}
+.sub-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.title {
+    font-size: 3em;
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.desc {
+    margin-bottom: 50px;
+    color: lightgray;
+}
+
+.button-accent {
+    text-decoration: none;
+    color: #00ff6c;
+    border: 3px double #00ff6c;
+    padding: 0.3em 2em;
+    font-size: 25px;
+    transition: 0.4s ease-in-out;
+}
+.button-accent:hover,
+.button-accent:focus {
+    background-color: rgb(0, 255, 108);
+    color: white;
+}
+
+.animation-icon {
+    font-size: 30px;
+    margin-top: 103px;
+    position: relative;
+   -webkit-animation: bouncy 1.5s infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: ease-out; /* Safari 4.0 - 8.0 */
+    animation: bouncy 1.5s infinite;
+    animation-timing-function: ease-out;;
+    transition: 0.4s;
+    margin-bottom: 36px;
+}
+
+@keyframes bouncy {
+    0% {
+        bottom: 0px;
+    }
+    
+    25% {
+        bottom: -7px;
+    }
+ 
+    50% {
+    bottom: -4px;
+    }
+    
+    75% {
+        bottom: -7px;
+    }
+    
+    100% {
+    bottom: 0px;
+    }
+}
+
+.aboutheading {
+    margin-top: 100px;
+}
+#aboutheadingaboutme {
+    font-weight: bolder;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.aboutheading p {
+font-family: testing;
+    font-size: 18px;
+    color: dimgrey;
+}
+
+.abouticons {
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 70px;
+    border: 1px solid rgb(70, 255, 45);
+    transform: scale(2.8);
+    background-color: rgb(70, 255, 45);
+    color: white;
+}
+
+h4{
+        margin-top: 60px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+#lock {
+        padding-right: 13px;
+        padding-left: 13px;
+    }
+   
+  
+    .hiremebackground {
+        background-color: rgb(70, 255, 45);
+        padding-bottom: 40px;
+    }
+
+.hiremeheading {
+        margin-top: 150px;
+    font-weight: bolder;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        padding-top: 60px;
+        color: white;
+    }
+    .hiremeparagraph {
+        font-family: testing;
+    font-size: 20px;
+    color: white;;
+        text-align: center;
+        padding-bottom: 40px;
+        
+    }
+
+
+
+.aboutmesubsubheading {
+    font-weight: 700;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.whyhireicons1 {
+    position: relative;
+    right: 25px;
+}
+
+.whyhireicons2 {
+    position: relative;
+    right: 20px;
+}
+
+.whyhireicons3 {
+    position: relative;
+    right: 20px;
+}
+.whyhireicons4 {
+    position: relative;
+    right: 20px;
+}
+.whyhireicons5 {
+    position: relative;
+    right: 20px;
+}
+.whyhireicons6 {
+    position: relative;
+    right: 20px;
+}
+.whyhireicons7 {
+    position: relative;
+    right: 20px;
+}
+.whyhireicons8 {
+    position: relative;
+    right: 20px;
+}
+.aboutmesubsubheading2 {
+    font-weight: 700;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.aboutmesubsubheading3 {
+    font-weight: 700;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+}
+.aboutmesubsubheading4 {
+    font-weight: 700;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+}
+.aboutmesubsubheading5 {
+    font-weight: 700;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+}
+.aboutmesubsubheading6 {
+    font-weight: 700;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+}
+    .aboutmesubsubheading7 {
+    font-weight: 700;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-align: center;
+        padding-top: 30px;
+}
+.aboutmesubsubheading8 {
+    font-weight: 700;
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.columns p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    
+p#contactparagraph {
+        font-size: 20px;
+        width: 80%;
+        margin: 0 auto;
+        color: white;
+        font-family: testing2;
+        text-align: center;
+}
+
+.contactwrapper {
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+.btn-primary {
+    background-color: transparent;
+        border: double 4px white;
+        font-family: testing;
+        font-size: 25px;
+        padding: 10px 30px;
+        opacity: 1s;
+    }
+    .btn-primary:hover {
+        background-color: white;
+        border: 1px double white;
+        font-size: 27px;
+        padding: 15px 35px;
+        color: black;
+        
+        
+    }
+    
+    #sociallinks {
+        font-size: 25px;
+        text-decoration: none;
+    }
+    .socials {
+        margin: 5px;
+        border: 1os solid rgba(35, 35, 35);
+        border-radius: 50%;
+        padding: 15px;
+        background-color:rgb(35, 35, 35);
+        transition: 1.5s;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .socials:hover {
+        background-color: rgb(70, 255, 45);
+        
+    }
+   
+#footcol1 {
+    text-align: center;
+}
